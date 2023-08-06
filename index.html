@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <script src="script.js" defer></script>
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="js-form form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walut</legend>
+                <p>
+                    <label>
+                        <span class="form__lableText">
+                            Kwota w PLN*:
+                        </span>
+                        <input class="js-amount form__field" name="amount" required type="number" min="0" step="0.01">
+
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__lableText">
+                            Wybierz walutę*:
+                        </span>
+                        <select class="js-currency form__field" name="currency">
+                            <option value="USD">Dolar Amerykański</option>
+                            <option value="EUR">Euro</option>
+                        </select>
+
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                Pola oznaczone * są wymagane.
+            </p>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+        </form>
+        <p>Kwota: <strong name="sum" class="js-sum">N/A</strong></p>
+        <p>Kurs walutowy z dnia 5 lipca 2023 roku 22:38</p>
+    </div>
+</body>
+
+</html>
