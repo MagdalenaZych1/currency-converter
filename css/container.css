@@ -8,6 +8,7 @@ html {
 
 .body {
     font-family: 'Raleway', sans-serif;
+    background-image: url("../images/currencybackground.png");
 }
 
 .container {
@@ -15,4 +16,5 @@ html {
     padding: 20px;
     margin: 0 auto;
     border-radius: 20px;
+    background-color: white;
 }
