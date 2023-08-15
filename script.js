@@ -14,7 +14,7 @@
 
     const updateResultText = (amount, sum, currency) => {
         const sumElement = document.querySelector(".js-sum")
-        sumElement.innerHTML = `${amount.toFixed(2)} PLN = ${sum.toFixed(2)} ${currency}`;
+        sumElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${sum.toFixed(2)} ${currency}</strong>`;
     }
 
     const onFormSubmit = (event) => {
