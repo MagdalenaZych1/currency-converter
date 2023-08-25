@@ -1,5 +1,6 @@
-<img width="1280" alt="Zrzut ekranu 2023-08-25 o 18 41 47" src="https://github.com/MagdalenaZych1/currency-converter/assets/141504529/421f90f1-4cc4-4ab2-ab55-4f9f456bfc8b"># Magdalena Zych - currency converter 
+# Magdalena Zych - currency converter 
 
+<img width="1280" alt="Zrzut ekranu 2023-08-25 o 18 41 47" src="https://github.com/MagdalenaZych1/currency-converter/assets/141504529/421f90f1-4cc4-4ab2-ab55-4f9f456bfc8b">
 ## Demo
 
 https://magdalenazych1.github.io/currency-converter/
@@ -17,5 +18,3 @@ The currency calculator is my second project. It consists in converting Polish z
 - BEM convention
 - FLEX box
 - JS - arrow function
-
-<img width="1280" alt="Zrzut ekranu 2023-08-25 o 18 41 47" src="https://github.com/MagdalenaZych1/currency-converter/assets/141504529/ac853966-3519-45fc-bc7f-41ba04e0f090">
